@@ -17,7 +17,7 @@ const LoginFormInputsSection = memo(() => {
         نام کاربری (همان شناسه ملی میباشد.)
       </label>
       <CustomInput
-        AtomClass="login-user-name"
+        AtomClass="login-user-name-input"
         setState={setUserNameValue}
         state={userNameValue}
         size="100%"
@@ -29,7 +29,7 @@ const LoginFormInputsSection = memo(() => {
         کلمه عبور
       </label>
       <CustomInput
-        AtomClass="login-password"
+        AtomClass="login-password-input"
         setState={setPasswordValue}
         state={passwordValue}
         size="100%"

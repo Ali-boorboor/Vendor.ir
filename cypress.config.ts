@@ -6,7 +6,7 @@ export default defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    baseUrl: "", // our base url will be here
+    baseUrl: "http://localhost:5173/", // our base url will be here
   },
   component: {
     devServer: {

@@ -1,3 +1,4 @@
+import AxiosInstance from "../../../services/AxiosInstance";
 import CustomButton from "../../atoms/CustomButton";
 import LoginIcon from "@mui/icons-material/Login";
 import { Lock } from "@mui/icons-material";
@@ -5,14 +6,21 @@ import { Link } from "@mui/icons-material";
 import { memo } from "react";
 import { useRecoilValue } from "recoil";
 import { LoginPasswordInputValue, LoginUserNameInputValue } from "../../../contexts/AtomsState";
-import { LoginRequestHandler } from "../../../services/FetchRequests";
+import { useNavigate } from "react-router";
 
 // ! buttons of login form section
 const LoginFormButtonsSection = memo(() => {
+  const navigate = useNavigate();
   const LoginUserNameInput = useRecoilValue(LoginUserNameInputValue);
   const LoginPasswordInput = useRecoilValue(LoginPasswordInputValue);
 
-  const loginHandler = () => LoginRequestHandler(LoginUserNameInput, LoginPasswordInput);
+  // ! login request handler
+  const loginHandler = () => {
+    AxiosInstance.post("/login", {
+      UserName: LoginUserNameInput,
+      Password: LoginPasswordInput,
+    }).then((res) => res.data.success && navigate("/forgot-password"));
+  };
 
   return (
     <div className="w-full flex flex-col gap-6 mt-6">
