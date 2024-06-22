@@ -8,8 +8,8 @@ const SignupFooter = memo(() => {
       <p className="text-white font-medium text-base text-center">
         طراحی و استقرار سامانه توسط{" "}
         <strong>
-          <Link to="#" className="underline">
-            دفراز
+          <Link to="http://naftazco.ir/" className="underline">
+            نفت آزمایان ژرف اندیش
           </Link>
         </strong>
       </p>

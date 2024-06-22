@@ -1,16 +1,16 @@
 import SignupHeader from "../organisms/SignupPageOrganisms/SignupHeader";
 import SignupFooter from "../organisms/SignupPageOrganisms/SignupFooter";
-import PersonSignupMainSection from "../organisms/SignupPageOrganisms/PersonSignupMainSection";
 import { memo } from "react";
+import { PersonSignupFormType } from "../../types/TemplateType";
 
-const PersonSignupForm = memo(() => {
+const SignupFormsTemplate = memo(({ children }: PersonSignupFormType) => {
   return (
     <>
       <SignupHeader />
-      <PersonSignupMainSection />
+      {children}
       <SignupFooter />
     </>
   );
 });
 
-export default PersonSignupForm;
+export default SignupFormsTemplate;

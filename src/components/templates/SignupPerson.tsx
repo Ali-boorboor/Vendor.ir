@@ -2,7 +2,14 @@ import SignupNationalCode from "../molecules/SignupPageMolecules/SignupNationalC
 import { memo } from "react";
 
 const SignupPerson = memo(() => {
-  return <SignupNationalCode title="شخص" inputLabel="کد ملی" href="/person-signup-form" />;
+  return (
+    <SignupNationalCode
+      title="شخص"
+      inputLabel="کد ملی"
+      href="/person-signup-form"
+      className="person-code-submit-btn"
+    />
+  );
 });
 
 export default SignupPerson;

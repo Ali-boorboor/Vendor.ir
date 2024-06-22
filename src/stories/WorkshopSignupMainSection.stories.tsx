@@ -1,11 +1,11 @@
-import PersonSignupFormPage from "../pages/PersonSignupFormPage";
+import WorkshopSignupMainSection from "../components/organisms/SignupPageOrganisms/WorkshopSignupMainSection";
 import { BrowserRouter } from "react-router-dom";
 import { Meta, StoryObj } from "@storybook/react";
 import { RecoilRoot } from "recoil";
 
 const meta = {
-  title: "PersonSignupFormPage",
-  component: PersonSignupFormPage,
+  title: "WorkshopSignupMainSection",
+  component: WorkshopSignupMainSection,
   args: {},
   decorators: [
     (Story) => (
@@ -16,11 +16,11 @@ const meta = {
       </BrowserRouter>
     ),
   ],
-} satisfies Meta<typeof PersonSignupFormPage>;
+} satisfies Meta<typeof WorkshopSignupMainSection>;
 
 export default meta;
-type Story = StoryObj<typeof PersonSignupFormPage>;
+type Story = StoryObj<typeof WorkshopSignupMainSection>;
 
-export const PersonSignupForm: Story = {
+export const WorkshopSignupMain: Story = {
   args: {},
 };

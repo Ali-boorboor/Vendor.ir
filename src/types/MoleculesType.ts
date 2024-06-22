@@ -2,6 +2,7 @@ type SignupNationalCodeType = {
   title: string;
   inputLabel: string;
   href: string;
+  className: string;
 };
 
 type SignupFormtype = {

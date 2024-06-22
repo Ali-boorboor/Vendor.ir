@@ -40,4 +40,36 @@ describe("signup Form Tests", () => {
 
     cy.url().should("include", "/signup/person");
   });
+
+  it("should navigate user to /company-signup-form route", () => {
+    cy.visit("/signup/company");
+
+    cy.get(".company-code-submit-btn").click();
+
+    cy.url().should("include", "/company-signup-form");
+  });
+
+  it("should navigate user to /person-signup-form route", () => {
+    cy.visit("/signup/person");
+
+    cy.get(".person-code-submit-btn").click();
+
+    cy.url().should("include", "/person-signup-form");
+  });
+
+  it("should navigate user to /shop-signup-form route", () => {
+    cy.visit("/signup/shop");
+
+    cy.get(".shop-code-submit-btn").click();
+
+    cy.url().should("include", "/shop-signup-form");
+  });
+
+  it("should navigate user to /workshop-signup-form route", () => {
+    cy.visit("/signup/workshop");
+
+    cy.get(".workshop-code-submit-btn").click();
+
+    cy.url().should("include", "/workshop-signup-form");
+  });
 });

@@ -20,4 +20,45 @@ const typeOfPerson = atom({
   default: "genuine",
 });
 
-export { IsSignupCompanyDropDown, IsSignupRealPersonDropDown, typeOfApplicant, typeOfPerson };
+const typeOfApplicantCompany = atom({
+  key: "typeOfApplicantCompany",
+  default: "company",
+});
+
+const typeOfPersonCompany = atom({
+  key: "typeOfPersonCompany",
+  default: "legal",
+});
+
+const typeOfApplicantWorkshop = atom({
+  key: "typeOfApplicantWorkshop",
+  default: "workshop",
+});
+
+const typeOfPersonWorkshop = atom({
+  key: "typeOfPersonWorkshop",
+  default: "genuine",
+});
+
+const typeOfApplicantShop = atom({
+  key: "typeOfApplicantShop",
+  default: "shop",
+});
+
+const typeOfPersonShop = atom({
+  key: "typeOfPersonShop",
+  default: "genuine",
+});
+
+export {
+  IsSignupCompanyDropDown,
+  IsSignupRealPersonDropDown,
+  typeOfApplicant,
+  typeOfPerson,
+  typeOfApplicantCompany,
+  typeOfPersonCompany,
+  typeOfApplicantWorkshop,
+  typeOfPersonWorkshop,
+  typeOfApplicantShop,
+  typeOfPersonShop,
+};
