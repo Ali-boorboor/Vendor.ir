@@ -35,7 +35,7 @@ const LoginFormButtonsSection = memo(() => {
         onClickHandler={loginHandler}
       />
       <CustomButton
-        AtomClass=""
+        AtomClass="login-page-forgot-password-button"
         size="100%"
         text="فراموشی رمز عبور"
         color="#fff"
@@ -45,7 +45,7 @@ const LoginFormButtonsSection = memo(() => {
         onClickHandler={() => {}}
       />
       <CustomButton
-        AtomClass=""
+        AtomClass="login-page-signup-button"
         size="100%"
         text="ثبت نام جدید"
         color="#000"

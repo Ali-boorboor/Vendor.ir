@@ -11,7 +11,7 @@ const ForgotPasswordFormButtons = memo(() => {
     <div className="w-full flex flex-col gap-6 mt-6">
       <CustomButton
         onClickHandler={() => {}}
-        AtomClass=""
+        AtomClass="forgot-password-login-button"
         size="100%"
         text="درخواست کلمه عبور"
         color="#fff"
@@ -21,7 +21,7 @@ const ForgotPasswordFormButtons = memo(() => {
       />
       <CustomButton
         onClickHandler={() => {}}
-        AtomClass=""
+        AtomClass="forgot-password-page-login-button"
         size="100%"
         text="صفحه ورود"
         color="#fff"
@@ -31,7 +31,7 @@ const ForgotPasswordFormButtons = memo(() => {
       />
       <CustomButton
         onClickHandler={() => {}}
-        AtomClass=""
+        AtomClass="forgot-password-page-signup-button"
         size="100%"
         text="ثبت نام جدید"
         color="#000"

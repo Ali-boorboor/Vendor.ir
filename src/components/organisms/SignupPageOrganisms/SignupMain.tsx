@@ -38,6 +38,7 @@ const SignupMain = memo(() => {
           onClick={setCompanyDropDownHandler}
         >
           <p
+            id="company-dropdown"
             className={`flex items-center gap-1 ${signupCompanyDropDown && "pb-4 border-b-2 border-color-purple-400"}`}
           >
             {signupCompanyDropDown ? (
@@ -49,7 +50,7 @@ const SignupMain = memo(() => {
           </p>
           {signupCompanyDropDown && (
             <div className="flex flex-wrap justify-center lg:justify-start gap-4 items-center px-8 py-4">
-              <SignupDropDownBox text="شرکت" href="#" />
+              <SignupDropDownBox id="SignupDropDownBoxCompany" text="شرکت" href="company" />
             </div>
           )}
         </section>
@@ -58,6 +59,7 @@ const SignupMain = memo(() => {
           onClick={setRealPersonDropDownHandler}
         >
           <p
+            id="person-dropdown"
             className={`flex items-center gap-1 ${signupRealPersonDropDown && "pb-4 border-b-2 border-color-purple-400"}`}
           >
             {signupRealPersonDropDown ? (
@@ -69,9 +71,9 @@ const SignupMain = memo(() => {
           </p>
           {signupRealPersonDropDown && (
             <div className="flex flex-wrap justify-center lg:justify-start gap-4 items-center px-8 py-4">
-              <SignupDropDownBox text="فروشگاه" href="#" />
-              <SignupDropDownBox text="کارگاه" href="#" />
-              <SignupDropDownBox text="شخص" href="#" />
+              <SignupDropDownBox id="SignupDropDownBoxShop" text="فروشگاه" href="shop" />
+              <SignupDropDownBox id="SignupDropDownBoxWorkshop" text="کارگاه" href="workshop" />
+              <SignupDropDownBox id="SignupDropDownBoxPerson" text="شخص" href="person" />
             </div>
           )}
         </section>

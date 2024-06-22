@@ -1,7 +1,7 @@
 import MainLogo from "../../atoms/MainLogo";
 import { memo } from "react";
 
-// ! header of signup page that uses MainLogo Atom to show logo
+// ! header of signup pages that uses MainLogo Atom to show logo
 const SignupHeader = memo(() => {
   return (
     <header className="bg-signup-header-gradient">

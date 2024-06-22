@@ -10,4 +10,14 @@ const IsSignupRealPersonDropDown = atom({
   default: false,
 });
 
-export { IsSignupCompanyDropDown, IsSignupRealPersonDropDown };
+const typeOfApplicant = atom({
+  key: "typeOfApplicant",
+  default: "person",
+});
+
+const typeOfPerson = atom({
+  key: "typeOfPerson",
+  default: "genuine",
+});
+
+export { IsSignupCompanyDropDown, IsSignupRealPersonDropDown, typeOfApplicant, typeOfPerson };

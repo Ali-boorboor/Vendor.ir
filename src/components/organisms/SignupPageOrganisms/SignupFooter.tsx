@@ -1,6 +1,7 @@
 import { memo } from "react";
 import { Link } from "react-router-dom";
 
+// ! footer of signup pages that uses MainLogo Atom to show logo
 const SignupFooter = memo(() => {
   return (
     <footer className="bg-signup-header-gradient py-8 px-6 fixed bottom-0 left-0 right-0">

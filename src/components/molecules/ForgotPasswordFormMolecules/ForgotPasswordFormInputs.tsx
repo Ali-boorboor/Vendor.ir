@@ -59,14 +59,14 @@ const ForgotPasswordFormInputs = memo(() => {
         </label>
       </div>
       <label htmlFor="" className="font-semibold text-sm text-color-gray-400">
-        شناسه ملی (نام کاربری)
+        {legalRadioChecked ? "شناسه ملی (نام کاربری)" : "کد ملی (نام کاربری)"}
       </label>
       <CustomInput
         AtomClass=""
         setState=""
         state=""
         type="text"
-        placeholder="شناسه ملی (نام کاربری)"
+        placeholder={legalRadioChecked ? "شناسه ملی" : "کد ملی"}
         size="100%"
         icon={<HowToRegIcon />}
       />

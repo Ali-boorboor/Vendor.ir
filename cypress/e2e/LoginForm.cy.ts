@@ -26,4 +26,22 @@ describe("Login Form Tests", () => {
 
     cy.url().should("include", "/forgot-password");
   });
+
+  // ! forgot password button test
+  it("should navigate user to forgot-password route", () => {
+    cy.visit("/");
+
+    cy.get(".login-page-forgot-password-button").click();
+
+    cy.url().should("include", "/forgot-password");
+  });
+
+  // ! signup button test
+  it("should navigate user to signup route", () => {
+    cy.visit("/");
+
+    cy.get(".login-page-signup-button").click();
+
+    cy.url().should("include", "/signup");
+  });
 });

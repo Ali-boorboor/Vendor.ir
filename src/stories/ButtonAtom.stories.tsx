@@ -1,6 +1,7 @@
 import CustomButton from "../components/atoms/CustomButton";
 import LoginIcon from "@mui/icons-material/Login";
 import PhonelinkLockIcon from "@mui/icons-material/PhonelinkLock";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import type { Meta, StoryObj } from "@storybook/react";
 import { Lock } from "@mui/icons-material";
 import { Link } from "@mui/icons-material";
@@ -76,6 +77,17 @@ export const SwitchToLoginPageButton: Story = {
     text: "صفحه ورود",
     bgColor: "#f5b759",
     icon: <LoginIcon />,
+    color: "#fff",
+    size: "14rem",
+  },
+};
+
+export const SubmitButton: Story = {
+  args: {
+    href: "#",
+    text: "تایید",
+    bgColor: "#337ab7",
+    icon: <CheckCircleIcon />,
     color: "#fff",
     size: "14rem",
   },

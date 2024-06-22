@@ -26,6 +26,7 @@ type MainLogoType = {
 
 type SignupDropDownBoxType = {
   href: string;
+  id: string;
   text: string;
 };
 
