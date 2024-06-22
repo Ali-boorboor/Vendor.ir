@@ -2,6 +2,8 @@ import CustomButton from "../components/atoms/CustomButton";
 import LoginIcon from "@mui/icons-material/Login";
 import PhonelinkLockIcon from "@mui/icons-material/PhonelinkLock";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import CancelIcon from "@mui/icons-material/Cancel";
+import BeenhereIcon from "@mui/icons-material/Beenhere";
 import type { Meta, StoryObj } from "@storybook/react";
 import { Lock } from "@mui/icons-material";
 import { Link } from "@mui/icons-material";
@@ -88,6 +90,28 @@ export const SubmitButton: Story = {
     text: "تایید",
     bgColor: "#337ab7",
     icon: <CheckCircleIcon />,
+    color: "#fff",
+    size: "14rem",
+  },
+};
+
+export const CancelButton: Story = {
+  args: {
+    href: "#",
+    text: "انصراف",
+    bgColor: "#d9534f",
+    icon: <CancelIcon />,
+    color: "#fff",
+    size: "14rem",
+  },
+};
+
+export const SaveButton: Story = {
+  args: {
+    href: "#",
+    text: "ذخیره",
+    bgColor: "#337ab7",
+    icon: <BeenhereIcon />,
     color: "#fff",
     size: "14rem",
   },
