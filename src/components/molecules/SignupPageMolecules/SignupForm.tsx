@@ -1,5 +1,5 @@
 import { memo } from "react";
-import { SignupFormtype } from "../../../types/MoleculesType";
+import { SignupFormtype } from "@/types/MoleculesType";
 
 // ! the form wrapper of signup forms that get childrens to render and a title to show
 const SignupForm = memo(({ title, children }: SignupFormtype) => {

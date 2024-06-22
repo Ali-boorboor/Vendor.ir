@@ -1,4 +1,4 @@
-import LoginForm from "../components/organisms/LoginPageOrganisms/LoginForm";
+import LoginForm from "@c/organisms/LoginPageOrganisms/LoginForm";
 import type { Meta, StoryObj } from "@storybook/react";
 import { BrowserRouter } from "react-router-dom";
 import { RecoilRoot } from "recoil";

@@ -1,4 +1,4 @@
-import SignupNationalCode from "../components/molecules/SignupPageMolecules/SignupNationalCode";
+import SignupNationalCode from "@c/molecules/SignupPageMolecules/SignupNationalCode";
 import { Meta, StoryObj } from "@storybook/react";
 import { BrowserRouter } from "react-router-dom";
 import { RecoilRoot } from "recoil";

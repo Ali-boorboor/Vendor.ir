@@ -1,12 +1,9 @@
-import CustomInput from "../../atoms/CustomInput";
+import CustomInput from "@c/atoms/CustomInput";
 import HowToRegIcon from "@mui/icons-material/HowToReg";
 import ImageIcon from "@mui/icons-material/Image";
 import { memo } from "react";
 import { useRecoilState } from "recoil";
-import {
-  IsRadioInputGenuineChecked,
-  IsRadioInputLegalChecked,
-} from "../../../contexts/MoleculesStates";
+import { IsRadioInputGenuineChecked, IsRadioInputLegalChecked } from "@/contexts/MoleculesStates";
 
 // ! inputs of forgot password form section
 // ! this component has some logics for checking the radio inputs

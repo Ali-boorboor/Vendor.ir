@@ -1,4 +1,4 @@
-import CustomInput from "../components/atoms/CustomInput";
+import CustomInput from "@c/atoms/CustomInput";
 import PersonIcon from "@mui/icons-material/Person";
 import ImageIcon from "@mui/icons-material/Image";
 import HowToRegIcon from "@mui/icons-material/HowToReg";

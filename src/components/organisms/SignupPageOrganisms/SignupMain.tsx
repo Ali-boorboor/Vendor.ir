@@ -1,13 +1,10 @@
 import ArrowCircleDownTwoToneIcon from "@mui/icons-material/ArrowCircleDownTwoTone";
 import ArrowCircleUpTwoToneIcon from "@mui/icons-material/ArrowCircleUpTwoTone";
 import QuestionMarkIcon from "@mui/icons-material/QuestionMark";
-import SignupDropDownBox from "../../atoms/SignupDropDownBox";
+import SignupDropDownBox from "@c/atoms/SignupDropDownBox";
 import { memo } from "react";
 import { useRecoilState } from "recoil";
-import {
-  IsSignupCompanyDropDown,
-  IsSignupRealPersonDropDown,
-} from "../../../contexts/OrganismsStates";
+import { IsSignupCompanyDropDown, IsSignupRealPersonDropDown } from "@/contexts/OrganismsStates";
 import { Link } from "react-router-dom";
 
 // ! main section of signup page

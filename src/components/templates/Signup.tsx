@@ -1,6 +1,6 @@
-import SignupFooter from "../organisms/SignupPageOrganisms/SignupFooter";
-import SignupHeader from "../organisms/SignupPageOrganisms/SignupHeader";
-import SignupMain from "../organisms/SignupPageOrganisms/SignupMain";
+import SignupFooter from "@c/organisms/SignupPageOrganisms/SignupFooter";
+import SignupHeader from "@c/organisms/SignupPageOrganisms/SignupHeader";
+import SignupMain from "@c/organisms/SignupPageOrganisms/SignupMain";
 import { Outlet } from "react-router";
 import { memo } from "react";
 

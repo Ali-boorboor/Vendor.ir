@@ -1,4 +1,4 @@
-import WorkshopSignupFormPage from "../pages/WorkshopSignupFormPage";
+import WorkshopSignupFormPage from "@/pages/WorkshopSignupFormPage";
 import { BrowserRouter } from "react-router-dom";
 import { Meta, StoryObj } from "@storybook/react";
 import { RecoilRoot } from "recoil";

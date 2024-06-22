@@ -1,11 +1,11 @@
-import AxiosInstance from "../../../services/AxiosInstance";
-import CustomButton from "../../atoms/CustomButton";
+import AxiosInstance from "@/services/AxiosInstance";
+import CustomButton from "@c/atoms/CustomButton";
 import LoginIcon from "@mui/icons-material/Login";
 import { Lock } from "@mui/icons-material";
 import { Link } from "@mui/icons-material";
 import { memo } from "react";
 import { useRecoilValue } from "recoil";
-import { LoginPasswordInputValue, LoginUserNameInputValue } from "../../../contexts/AtomsState";
+import { LoginPasswordInputValue, LoginUserNameInputValue } from "@/contexts/AtomsState";
 import { useNavigate } from "react-router";
 
 // ! buttons of login form section

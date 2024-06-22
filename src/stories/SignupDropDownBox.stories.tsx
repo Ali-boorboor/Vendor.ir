@@ -1,4 +1,4 @@
-import SignupDropDownBox from "../components/atoms/SignupDropDownBox";
+import SignupDropDownBox from "@c/atoms/SignupDropDownBox";
 import { Meta, StoryObj } from "@storybook/react";
 import { BrowserRouter } from "react-router-dom";
 

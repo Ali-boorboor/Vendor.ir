@@ -1,4 +1,4 @@
-import ForgotPassword from "../components/templates/ForgotPassword";
+import ForgotPassword from "@c/templates/ForgotPassword";
 import { memo } from "react";
 
 // ! forgot password page that uses ForgotPassword template

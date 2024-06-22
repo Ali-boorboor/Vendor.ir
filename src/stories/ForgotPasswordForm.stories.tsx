@@ -1,4 +1,4 @@
-import ForgotPasswordForm from "../components/organisms/ForgotPasswordPageOrganisms/ForgotPasswordForm";
+import ForgotPasswordForm from "@c/organisms/ForgotPasswordPageOrganisms/ForgotPasswordForm";
 import { RecoilRoot } from "recoil";
 import type { Meta, StoryObj } from "@storybook/react";
 import { BrowserRouter } from "react-router-dom";
@@ -17,9 +17,9 @@ export const FormSection: Story = {
   decorators: [
     (Story) => (
       <BrowserRouter>
-      <RecoilRoot>
-        <Story />
-      </RecoilRoot>
+        <RecoilRoot>
+          <Story />
+        </RecoilRoot>
       </BrowserRouter>
     ),
   ],

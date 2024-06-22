@@ -1,4 +1,4 @@
-import LoginFormInputsSection from "../components/molecules/LoginFormMolecules/LoginFormInputsSection";
+import LoginFormInputsSection from "@c/molecules/LoginFormMolecules/LoginFormInputsSection";
 import { RecoilRoot } from "recoil";
 import type { Meta, StoryObj } from "@storybook/react";
 

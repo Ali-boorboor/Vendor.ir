@@ -1,5 +1,5 @@
-import LoginForm from "../organisms/LoginPageOrganisms/LoginForm";
-import RightSectionForms from "../organisms/RightSectionForms";
+import LoginForm from "@c/organisms/LoginPageOrganisms/LoginForm";
+import RightSectionForms from "@c/organisms/RightSectionForms";
 import { memo } from "react";
 
 const Login = memo(() => {

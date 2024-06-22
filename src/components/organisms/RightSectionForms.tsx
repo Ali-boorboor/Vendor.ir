@@ -1,5 +1,5 @@
 import { memo } from "react";
-import { RightSectionFormsType } from "../../types/OrganismsType";
+import { RightSectionFormsType } from "@/types/OrganismsType";
 
 // ! right section of forms
 const RightSectionForms = memo(({ text }: RightSectionFormsType) => {

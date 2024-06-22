@@ -1,4 +1,4 @@
-import CustomButton from "../../atoms/CustomButton";
+import CustomButton from "@c/atoms/CustomButton";
 import LoginIcon from "@mui/icons-material/Login";
 import PhonelinkLockIcon from "@mui/icons-material/PhonelinkLock";
 import { Link } from "@mui/icons-material";

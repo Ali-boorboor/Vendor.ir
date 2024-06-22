@@ -1,5 +1,5 @@
 import { memo } from "react";
-import { MainLogoType } from "../../types/AtomsType";
+import { MainLogoType } from "@/types/AtomsType";
 
 const MainLogo = memo(({ width, height }: MainLogoType) => {
   return (

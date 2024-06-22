@@ -1,4 +1,4 @@
-import MainLogo from "../components/atoms/MainLogo";
+import MainLogo from "@c/atoms/MainLogo";
 import { Meta, StoryObj } from "@storybook/react";
 
 const meta = {

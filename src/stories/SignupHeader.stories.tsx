@@ -1,4 +1,4 @@
-import SignupHeader from "../components/organisms/SignupPageOrganisms/SignupHeader";
+import SignupHeader from "@c/organisms/SignupPageOrganisms/SignupHeader";
 import { Meta, StoryObj } from "@storybook/react";
 import { BrowserRouter } from "react-router-dom";
 

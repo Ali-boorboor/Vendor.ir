@@ -1,4 +1,4 @@
-import SignupNationalCode from "../molecules/SignupPageMolecules/SignupNationalCode";
+import SignupNationalCode from "@c/molecules/SignupPageMolecules/SignupNationalCode";
 import { memo } from "react";
 
 const SignupWorkshop = memo(() => {

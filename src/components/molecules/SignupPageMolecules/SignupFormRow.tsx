@@ -1,5 +1,5 @@
 import { memo } from "react";
-import { SignupFormRowType } from "../../../types/MoleculesType";
+import { SignupFormRowType } from "@/types/MoleculesType";
 
 const SignupFormRow = memo(({ label, children }: SignupFormRowType) => {
   return (

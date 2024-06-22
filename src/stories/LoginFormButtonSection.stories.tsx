@@ -1,4 +1,4 @@
-import LoginFormButtonsSection from "../components/molecules/LoginFormMolecules/LoginFormButtonsSection";
+import LoginFormButtonsSection from "@c/molecules/LoginFormMolecules/LoginFormButtonsSection";
 import type { Meta, StoryObj } from "@storybook/react";
 import { BrowserRouter } from "react-router-dom";
 import { RecoilRoot } from "recoil";

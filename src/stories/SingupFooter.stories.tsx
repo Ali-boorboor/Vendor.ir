@@ -1,4 +1,4 @@
-import SignupFooter from "../components/organisms/SignupPageOrganisms/SignupFooter";
+import SignupFooter from "@c/organisms/SignupPageOrganisms/SignupFooter";
 import { Meta, StoryObj } from "@storybook/react";
 import { BrowserRouter } from "react-router-dom";
 

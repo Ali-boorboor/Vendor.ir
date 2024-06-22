@@ -1,4 +1,4 @@
-import ForgotPassword from "../components/templates/ForgotPassword";
+import ForgotPassword from "@c/templates/ForgotPassword";
 import { RecoilRoot } from "recoil";
 import type { Meta, StoryObj } from "@storybook/react";
 import { BrowserRouter } from "react-router-dom";

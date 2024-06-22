@@ -1,4 +1,4 @@
-import Signup from "../components/templates/Signup";
+import Signup from "@c/templates/Signup";
 import { Meta, StoryObj } from "@storybook/react";
 import { BrowserRouter } from "react-router-dom";
 import { RecoilRoot } from "recoil";

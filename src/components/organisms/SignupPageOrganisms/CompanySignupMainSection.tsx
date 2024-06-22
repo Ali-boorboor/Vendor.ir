@@ -1,6 +1,6 @@
-import CustomButton from "../../atoms/CustomButton";
-import SignupForm from "../../molecules/SignupPageMolecules/SignupForm";
-import SignupFormRow from "../../molecules/SignupPageMolecules/SignupFormRow";
+import CustomButton from "@c/atoms/CustomButton";
+import SignupForm from "@c/molecules/SignupPageMolecules/SignupForm";
+import SignupFormRow from "@c/molecules/SignupPageMolecules/SignupFormRow";
 import BeenhereIcon from "@mui/icons-material/Beenhere";
 import CancelIcon from "@mui/icons-material/Cancel";
 import {
@@ -13,7 +13,7 @@ import {
   TextField,
 } from "@mui/material";
 import { memo } from "react";
-import { typeOfApplicantCompany, typeOfPersonCompany } from "../../../contexts/OrganismsStates";
+import { typeOfApplicantCompany, typeOfPersonCompany } from "@/contexts/OrganismsStates";
 import { useRecoilState } from "recoil";
 
 const CompanySignupMainSection = memo(() => {

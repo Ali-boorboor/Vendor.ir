@@ -1,7 +1,7 @@
-import CustomButton from "../../atoms/CustomButton";
+import CustomButton from "@c/atoms/CustomButton";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import { memo } from "react";
-import { SignupNationalCodeType } from "../../../types/MoleculesType";
+import { SignupNationalCodeType } from "@/types/MoleculesType";
 import { FormControl, OutlinedInput } from "@mui/material";
 
 // ! the component form that will get national code & move user to signup forms

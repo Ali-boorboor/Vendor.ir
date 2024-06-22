@@ -1,4 +1,4 @@
-import Signup from "../components/templates/Signup";
+import Signup from "@c/templates/Signup";
 import { memo } from "react";
 
 // ! signup page that uses signup template

@@ -1,4 +1,4 @@
-import SignupMain from "../components/organisms/SignupPageOrganisms/SignupMain";
+import SignupMain from "@c/organisms/SignupPageOrganisms/SignupMain";
 import { Meta, StoryObj } from "@storybook/react";
 import { BrowserRouter } from "react-router-dom";
 import { RecoilRoot } from "recoil";

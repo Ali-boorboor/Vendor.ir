@@ -1,4 +1,4 @@
-import Login from "../components/templates/Login";
+import Login from "@c/templates/Login";
 import { memo } from "react";
 
 // ! login page that uses login template

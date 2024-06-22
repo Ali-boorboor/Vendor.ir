@@ -1,7 +1,7 @@
 import SettingsIcon from "@mui/icons-material/Settings";
 import { memo } from "react";
 import { Link } from "react-router-dom";
-import { SignupDropDownBoxType } from "../../types/AtomsType";
+import { SignupDropDownBoxType } from "@/types/AtomsType";
 
 const SignupDropDownBox = memo(({ href, text, id }: SignupDropDownBoxType) => {
   return (

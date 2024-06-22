@@ -1,6 +1,6 @@
-import ForgotPasswordFormInputs from "../../molecules/ForgotPasswordFormMolecules/ForgotPasswordFormInputs";
-import ForgotPasswordFormButtons from "../../molecules/ForgotPasswordFormMolecules/ForgotPasswordFormButtons";
-import MainLogo from "../../atoms/MainLogo";
+import ForgotPasswordFormInputs from "@c/molecules/ForgotPasswordFormMolecules/ForgotPasswordFormInputs";
+import ForgotPasswordFormButtons from "@c/molecules/ForgotPasswordFormMolecules/ForgotPasswordFormButtons";
+import MainLogo from "@c/atoms/MainLogo";
 import { memo } from "react";
 
 // ! left forgot password form of forgot password page that get user datas to log the user in

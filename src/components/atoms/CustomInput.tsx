@@ -1,6 +1,6 @@
 import { FormControl, IconButton, InputAdornment, InputLabel, OutlinedInput } from "@mui/material";
 import { memo } from "react";
-import { CustomInputType } from "../../types/AtomsType";
+import { CustomInputType } from "@/types/AtomsType";
 
 // ! input atom component that will get placeholder-text & icon & ... as props
 const CustomInput = memo(

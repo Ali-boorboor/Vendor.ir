@@ -1,10 +1,10 @@
-import CustomInput from "../../atoms/CustomInput";
+import CustomInput from "@c/atoms/CustomInput";
 import PersonIcon from "@mui/icons-material/Person";
 import ImageIcon from "@mui/icons-material/Image";
 import { Lock } from "@mui/icons-material";
 import { memo } from "react";
 import { useRecoilState } from "recoil";
-import { LoginPasswordInputValue, LoginUserNameInputValue } from "../../../contexts/AtomsState";
+import { LoginPasswordInputValue, LoginUserNameInputValue } from "@/contexts/AtomsState";
 
 // ! inputs of login form section
 const LoginFormInputsSection = memo(() => {

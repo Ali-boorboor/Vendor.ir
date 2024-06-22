@@ -1,4 +1,4 @@
-import MainLogo from "../../atoms/MainLogo";
+import MainLogo from "@c/atoms/MainLogo";
 import { memo } from "react";
 
 // ! header of signup pages that uses MainLogo Atom to show logo

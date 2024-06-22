@@ -1,14 +1,14 @@
-import SignupCompany from "../components/templates/SignupCompany";
-import SignupPerson from "../components/templates/SignupPerson";
-import SignupShop from "../components/templates/SignupShop";
-import SignupWorkshop from "../components/templates/SignupWorkshop";
-import CompanySignupFormPage from "../pages/CompanySignupFormPage";
-import ForgotPasswordPage from "../pages/ForgotPasswordPage";
-import LoginPage from "../pages/LoginPage";
-import PersonSignupFormPage from "../pages/PersonSignupFormPage";
-import ShopSignupFormPage from "../pages/ShopSignupFormPage";
-import SignupPage from "../pages/SignupPage";
-import WorkshopSignupFormPage from "../pages/WorkshopSignupFormPage";
+import SignupCompany from "@c/templates/SignupCompany";
+import SignupPerson from "@c/templates/SignupPerson";
+import SignupShop from "@c/templates/SignupShop";
+import SignupWorkshop from "@c/templates/SignupWorkshop";
+import CompanySignupFormPage from "@/pages/CompanySignupFormPage";
+import ForgotPasswordPage from "@/pages/ForgotPasswordPage";
+import LoginPage from "@/pages/LoginPage";
+import PersonSignupFormPage from "@/pages/PersonSignupFormPage";
+import ShopSignupFormPage from "@/pages/ShopSignupFormPage";
+import SignupPage from "@/pages/SignupPage";
+import WorkshopSignupFormPage from "@/pages/WorkshopSignupFormPage";
 
 // ! List of all routes
 let Routes = [

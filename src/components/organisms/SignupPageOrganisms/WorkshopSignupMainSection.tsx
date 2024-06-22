@@ -1,6 +1,6 @@
-import CustomButton from "../../atoms/CustomButton";
-import SignupForm from "../../molecules/SignupPageMolecules/SignupForm";
-import SignupFormRow from "../../molecules/SignupPageMolecules/SignupFormRow";
+import CustomButton from "@c/atoms/CustomButton";
+import SignupForm from "@c/molecules/SignupPageMolecules/SignupForm";
+import SignupFormRow from "@c/molecules/SignupPageMolecules/SignupFormRow";
 import BeenhereIcon from "@mui/icons-material/Beenhere";
 import CancelIcon from "@mui/icons-material/Cancel";
 import { memo } from "react";
@@ -14,7 +14,7 @@ import {
   TextField,
 } from "@mui/material";
 import { useRecoilState } from "recoil";
-import { typeOfApplicantWorkshop, typeOfPersonWorkshop } from "../../../contexts/OrganismsStates";
+import { typeOfApplicantWorkshop, typeOfPersonWorkshop } from "@/contexts/OrganismsStates";
 
 const WorkshopSignupMainSection = memo(() => {
   const [TypeOfApplicant, setTypeOfApplicant] = useRecoilState(typeOfApplicantWorkshop);

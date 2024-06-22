@@ -1,4 +1,4 @@
-import RightSectionForms from "../components/organisms/RightSectionForms";
+import RightSectionForms from "@c/organisms/RightSectionForms";
 import type { Meta, StoryObj } from "@storybook/react";
 
 // ! login page right section

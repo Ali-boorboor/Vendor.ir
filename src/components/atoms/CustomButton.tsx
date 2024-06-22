@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
 import { memo } from "react";
-import { CustomButtonType } from "../../types/AtomsType";
+import { CustomButtonType } from "@/types/AtomsType";
 import { Link } from "react-router-dom";
 
 // ! button atom component that will get text & background-color & icon & ... as props

@@ -1,4 +1,4 @@
-import CustomButton from "../components/atoms/CustomButton";
+import CustomButton from "@c/atoms/CustomButton";
 import LoginIcon from "@mui/icons-material/Login";
 import PhonelinkLockIcon from "@mui/icons-material/PhonelinkLock";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";

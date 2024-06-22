@@ -1,5 +1,5 @@
-import PersonSignupMainSection from "../components/organisms/SignupPageOrganisms/PersonSignupMainSection";
-import SignupFormsTemplate from "../components/templates/SignupFormsTemplate";
+import PersonSignupMainSection from "@c/organisms/SignupPageOrganisms/PersonSignupMainSection";
+import SignupFormsTemplate from "@c/templates/SignupFormsTemplate";
 import { memo } from "react";
 
 const PersonSignupFormPage = memo(() => {

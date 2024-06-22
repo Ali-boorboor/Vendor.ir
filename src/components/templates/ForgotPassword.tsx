@@ -1,5 +1,5 @@
-import ForgotPasswordForm from "../organisms/ForgotPasswordPageOrganisms/ForgotPasswordForm";
-import RightSectionForms from "../organisms/RightSectionForms";
+import ForgotPasswordForm from "@c/organisms/ForgotPasswordPageOrganisms/ForgotPasswordForm";
+import RightSectionForms from "@c/organisms/RightSectionForms";
 import { memo } from "react";
 
 const ForgotPassword = memo(() => {

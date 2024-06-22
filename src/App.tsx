@@ -1,4 +1,4 @@
-import Routes from "./routes/Routes";
+import Routes from "@/routes/Routes";
 import { memo } from "react";
 import { useRoutes } from "react-router";
 

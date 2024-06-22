@@ -1,4 +1,4 @@
-import PersonSignupMainSection from "../components/organisms/SignupPageOrganisms/PersonSignupMainSection";
+import PersonSignupMainSection from "@c/organisms/SignupPageOrganisms/PersonSignupMainSection";
 import { BrowserRouter } from "react-router-dom";
 import { Meta, StoryObj } from "@storybook/react";
 import { RecoilRoot } from "recoil";

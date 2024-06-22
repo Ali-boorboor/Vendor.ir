@@ -1,6 +1,6 @@
-import MainLogo from "../../atoms/MainLogo";
-import LoginFormButtonsSection from "../../molecules/LoginFormMolecules/LoginFormButtonsSection";
-import LoginFormInputsSection from "../../molecules/LoginFormMolecules/LoginFormInputsSection";
+import MainLogo from "@c/atoms/MainLogo";
+import LoginFormButtonsSection from "@c/molecules/LoginFormMolecules/LoginFormButtonsSection";
+import LoginFormInputsSection from "@c/molecules/LoginFormMolecules/LoginFormInputsSection";
 import { memo } from "react";
 
 // ! left login form of login page that get user datas to log the user in
