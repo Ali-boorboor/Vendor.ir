@@ -1,7 +1,8 @@
 import { memo } from "react";
-import { SignupFormRowType } from "@/types/MoleculesType";
+import { SignupFormRowWrapperType } from "@/types/MoleculesType";
 
-const SignupFormRow = memo(({ label, children }: SignupFormRowType) => {
+// ! a row of signup forms (label + input) that will get children to render and a label to show
+const SignupFormRowWrapper = memo(({ label, children }: SignupFormRowWrapperType) => {
   return (
     <section className="flex items-center justify-between border-b border-zinc-300 px-2 gap-2 pb-4 lg:flex-nowrap flex-wrap">
       <label
@@ -15,4 +16,4 @@ const SignupFormRow = memo(({ label, children }: SignupFormRowType) => {
   );
 });
 
-export default SignupFormRow;
+export default SignupFormRowWrapper;

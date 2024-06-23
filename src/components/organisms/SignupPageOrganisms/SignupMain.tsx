@@ -1,7 +1,7 @@
 import ArrowCircleDownTwoToneIcon from "@mui/icons-material/ArrowCircleDownTwoTone";
 import ArrowCircleUpTwoToneIcon from "@mui/icons-material/ArrowCircleUpTwoTone";
 import QuestionMarkIcon from "@mui/icons-material/QuestionMark";
-import SignupDropDownBox from "@c/atoms/SignupDropDownBox";
+import SignupOptionBox from "@c/atoms/SignupOptionBox";
 import { memo } from "react";
 import { useRecoilState } from "recoil";
 import { IsSignupCompanyDropDown, IsSignupRealPersonDropDown } from "@/contexts/OrganismsStates";
@@ -47,7 +47,7 @@ const SignupMain = memo(() => {
           </p>
           {signupCompanyDropDown && (
             <div className="flex flex-wrap justify-center lg:justify-start gap-4 items-center px-8 py-4">
-              <SignupDropDownBox id="SignupDropDownBoxCompany" text="شرکت" href="company" />
+              <SignupOptionBox id="SignupOptionBoxCompany" text="شرکت" href="company" />
             </div>
           )}
         </section>
@@ -68,9 +68,9 @@ const SignupMain = memo(() => {
           </p>
           {signupRealPersonDropDown && (
             <div className="flex flex-wrap justify-center lg:justify-start gap-4 items-center px-8 py-4">
-              <SignupDropDownBox id="SignupDropDownBoxShop" text="فروشگاه" href="shop" />
-              <SignupDropDownBox id="SignupDropDownBoxWorkshop" text="کارگاه" href="workshop" />
-              <SignupDropDownBox id="SignupDropDownBoxPerson" text="شخص" href="person" />
+              <SignupOptionBox id="SignupOptionBoxShop" text="فروشگاه" href="shop" />
+              <SignupOptionBox id="SignupOptionBoxWorkshop" text="کارگاه" href="workshop" />
+              <SignupOptionBox id="SignupOptionBoxPerson" text="شخص" href="person" />
             </div>
           )}
         </section>

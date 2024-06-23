@@ -1,7 +1,7 @@
-import SignupCompany from "@c/templates/SignupCompany";
-import SignupPerson from "@c/templates/SignupPerson";
-import SignupShop from "@c/templates/SignupShop";
-import SignupWorkshop from "@c/templates/SignupWorkshop";
+import SignupCompanyNationalCode from "@c/organisms/SignupPageOrganisms/SignupCompanyNationalCode";
+import SignupPersonNationalCode from "@c/organisms/SignupPageOrganisms/SignupPersonNationalCode";
+import SignupShopNationalCode from "@c/organisms/SignupPageOrganisms/SignupShopNationalCode";
+import SignupWorkshopNationalCode from "@c/organisms/SignupPageOrganisms/SignupWorkshopNationalCode";
 import CompanySignupFormPage from "@/pages/CompanySignupFormPage";
 import ForgotPasswordPage from "@/pages/ForgotPasswordPage";
 import LoginPage from "@/pages/LoginPage";
@@ -14,17 +14,18 @@ import WorkshopSignupFormPage from "@/pages/WorkshopSignupFormPage";
 let Routes = [
   { path: "/", element: <LoginPage /> },
   { path: "/forgot-password", element: <ForgotPasswordPage /> },
-  // ! signup page with its template children
+  // ! signup page with its children (national code components)
   {
     path: "/signup",
     element: <SignupPage />,
     children: [
-      { path: "company", element: <SignupCompany /> },
-      { path: "workshop", element: <SignupWorkshop /> },
-      { path: "shop", element: <SignupShop /> },
-      { path: "person", element: <SignupPerson /> },
+      { path: "company", element: <SignupCompanyNationalCode /> },
+      { path: "workshop", element: <SignupWorkshopNationalCode /> },
+      { path: "shop", element: <SignupShopNationalCode /> },
+      { path: "person", element: <SignupPersonNationalCode /> },
     ],
   },
+  // ! signup forms (for person form &...)
   { path: "/person-signup-form", element: <PersonSignupFormPage /> },
   { path: "/company-signup-form", element: <CompanySignupFormPage /> },
   { path: "/workshop-signup-form", element: <WorkshopSignupFormPage /> },

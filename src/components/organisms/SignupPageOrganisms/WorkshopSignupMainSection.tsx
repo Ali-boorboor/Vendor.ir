@@ -1,6 +1,6 @@
 import CustomButton from "@c/atoms/CustomButton";
-import SignupForm from "@c/molecules/SignupPageMolecules/SignupForm";
-import SignupFormRow from "@c/molecules/SignupPageMolecules/SignupFormRow";
+import SignupFormWrapper from "@c/molecules/SignupPageMolecules/SignupFormWrapper";
+import SignupFormRowWrapper from "@c/molecules/SignupPageMolecules/SignupFormRowWrapper";
 import BeenhereIcon from "@mui/icons-material/Beenhere";
 import CancelIcon from "@mui/icons-material/Cancel";
 import { memo } from "react";
@@ -25,9 +25,9 @@ const WorkshopSignupMainSection = memo(() => {
   const handleTypeOfPerson = (e: SelectChangeEvent<string>) => setTypeOfPerson(e.target.value);
 
   return (
-    <SignupForm title="فرم ورود اطلاعات اولیه">
+    <SignupFormWrapper title="فرم ورود اطلاعات اولیه">
       <>
-        <SignupFormRow label="نوع متقاضی">
+        <SignupFormRowWrapper label="نوع متقاضی">
           <FormControl sx={{ width: "100%" }}>
             <InputLabel id="demo-select-small-label">کارگاه</InputLabel>
             <Select
@@ -44,8 +44,8 @@ const WorkshopSignupMainSection = memo(() => {
               </MenuItem>
             </Select>
           </FormControl>
-        </SignupFormRow>
-        <SignupFormRow label="نوع شخص">
+        </SignupFormRowWrapper>
+        <SignupFormRowWrapper label="نوع شخص">
           <FormControl sx={{ width: "100%" }}>
             <InputLabel id="demo-select-small-label">حقیقی</InputLabel>
             <Select
@@ -62,13 +62,13 @@ const WorkshopSignupMainSection = memo(() => {
               </MenuItem>
             </Select>
           </FormControl>
-        </SignupFormRow>
-        <SignupFormRow label="نام شرکت">
+        </SignupFormRowWrapper>
+        <SignupFormRowWrapper label="نام شرکت">
           <FormControl id="nationalCodeInput" sx={{ width: "100%" }}>
             <OutlinedInput />
           </FormControl>
-        </SignupFormRow>
-        <SignupFormRow
+        </SignupFormRowWrapper>
+        <SignupFormRowWrapper
           label={
             <div className="flex flex-col gap-1 items-start">
               <p className="">کد ملی</p>
@@ -79,8 +79,8 @@ const WorkshopSignupMainSection = memo(() => {
           }
         >
           <TextField disabled id="outlined-disabled" value="0938712097" sx={{ width: "100%" }} />
-        </SignupFormRow>
-        <SignupFormRow
+        </SignupFormRowWrapper>
+        <SignupFormRowWrapper
           label={
             <div className="flex flex-col gap-1 items-start">
               <p className="">شماره تلفن همراه</p>
@@ -96,27 +96,27 @@ const WorkshopSignupMainSection = memo(() => {
             id="demo-helper-text-misaligned"
             sx={{ width: "100%" }}
           />
-        </SignupFormRow>
-        <SignupFormRow label="پست الکترونیکی">
+        </SignupFormRowWrapper>
+        <SignupFormRowWrapper label="پست الکترونیکی">
           <FormControl id="nationalCodeInput" sx={{ width: "100%" }}>
             <OutlinedInput />
           </FormControl>
-        </SignupFormRow>
-        <SignupFormRow label="وبسایت شرکت">
+        </SignupFormRowWrapper>
+        <SignupFormRowWrapper label="وبسایت شرکت">
           <FormControl id="nationalCodeInput" sx={{ width: "100%" }}>
             <OutlinedInput />
           </FormControl>
-        </SignupFormRow>
-        <SignupFormRow label="رمز عبور">
+        </SignupFormRowWrapper>
+        <SignupFormRowWrapper label="رمز عبور">
           <FormControl id="nationalCodeInput" sx={{ width: "100%" }}>
             <OutlinedInput />
           </FormControl>
-        </SignupFormRow>
-        <SignupFormRow label="تکرار رمز عبور">
+        </SignupFormRowWrapper>
+        <SignupFormRowWrapper label="تکرار رمز عبور">
           <FormControl id="nationalCodeInput" sx={{ width: "100%" }}>
             <OutlinedInput />
           </FormControl>
-        </SignupFormRow>
+        </SignupFormRowWrapper>
         <section className="flex items-center gap-4 px-4 lg:justify-start justify-center">
           <CustomButton
             text="ذخیره"
@@ -140,7 +140,7 @@ const WorkshopSignupMainSection = memo(() => {
           />
         </section>
       </>
-    </SignupForm>
+    </SignupFormWrapper>
   );
 });
 

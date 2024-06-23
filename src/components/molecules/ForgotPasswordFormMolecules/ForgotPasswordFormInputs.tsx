@@ -5,8 +5,9 @@ import { memo } from "react";
 import { useRecoilState } from "recoil";
 import { IsRadioInputGenuineChecked, IsRadioInputLegalChecked } from "@/contexts/MoleculesStates";
 
-// ! inputs of forgot password form section
+// ! inputs of forgot password form (page)
 // ! this component has some logics for checking the radio inputs
+// ! legal ==> حقوقی ||||| genuine ==> حقیقی
 const ForgotPasswordFormInputs = memo(() => {
   const [legalRadioChecked, setLegalRadioChecked] = useRecoilState(IsRadioInputLegalChecked);
   const [genuineRadioChecked, setGenuineRadioChecked] = useRecoilState(IsRadioInputGenuineChecked);

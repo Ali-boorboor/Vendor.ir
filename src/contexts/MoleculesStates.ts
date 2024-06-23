@@ -1,5 +1,7 @@
 import { atom } from "recoil";
 
+// ! states 4 radio inputs of forgot-password (form) page
+// ! legal ==> حقوقی |||| genuine ==> حقیقی
 const IsRadioInputLegalChecked = atom({
   key: "IsRadioInputLegalChecked",
   default: false,

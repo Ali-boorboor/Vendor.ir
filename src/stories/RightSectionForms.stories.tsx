@@ -1,14 +1,14 @@
-import RightSectionForms from "@c/organisms/RightSectionForms";
+import AuthFormsRightSection from "@c/organisms/AuthFormsRightSection";
 import type { Meta, StoryObj } from "@storybook/react";
 
 // ! login page right section
-const meta: Meta<typeof RightSectionForms> = {
+const meta: Meta<typeof AuthFormsRightSection> = {
   title: "RightFormsSection",
-  component: RightSectionForms,
+  component: AuthFormsRightSection,
 };
 
 export default meta;
-type Story = StoryObj<typeof RightSectionForms>;
+type Story = StoryObj<typeof AuthFormsRightSection>;
 
 export const RightSection: Story = {
   args: {},

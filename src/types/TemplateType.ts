@@ -1,5 +1,5 @@
-type PersonSignupFormType = {
+type PersonSignupFormWrapperType = {
   children: JSX.Element;
 };
 
-export type { PersonSignupFormType };
+export type { PersonSignupFormWrapperType };

@@ -1,8 +1,8 @@
 import { memo } from "react";
-import { RightSectionFormsType } from "@/types/OrganismsType";
+import { AuthFormsRightSectionType } from "@/types/OrganismsType";
 
-// ! right section of forms
-const RightSectionForms = memo(({ text }: RightSectionFormsType) => {
+// ! right section (image) of login & forgot-password forms
+const AuthFormsRightSection = memo(({ text }: AuthFormsRightSectionType) => {
   return (
     <section className="w-full lg:basis-[67%] bg-login-background-img bg-center h-full bg-cover bg-no-repeat relative">
       <div className="bg-gradient-to-r from-color-pink-700 to-color-blue-600 absolute inset-0 z-10"></div>
@@ -14,4 +14,4 @@ const RightSectionForms = memo(({ text }: RightSectionFormsType) => {
   );
 });
 
-export default RightSectionForms;
+export default AuthFormsRightSection;

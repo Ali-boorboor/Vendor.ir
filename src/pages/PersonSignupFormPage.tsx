@@ -1,12 +1,13 @@
 import PersonSignupMainSection from "@c/organisms/SignupPageOrganisms/PersonSignupMainSection";
-import SignupFormsTemplate from "@c/templates/SignupFormsTemplate";
+import SignupFormWrappersTemplate from "@c/templates/SignupFormWrappersTemplate";
 import { memo } from "react";
 
+// ! signup form 4 person
 const PersonSignupFormPage = memo(() => {
   return (
-    <SignupFormsTemplate>
+    <SignupFormWrappersTemplate>
       <PersonSignupMainSection />
-    </SignupFormsTemplate>
+    </SignupFormWrappersTemplate>
   );
 });
 

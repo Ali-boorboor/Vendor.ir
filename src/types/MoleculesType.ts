@@ -1,18 +1,18 @@
-type SignupNationalCodeType = {
+type NationalCodeSignupFormType = {
   title: string;
   inputLabel: string;
   href: string;
   className: string;
 };
 
-type SignupFormtype = {
+type SignupFormWrappertype = {
   title: string;
   children: JSX.Element;
 };
 
-type SignupFormRowType = {
+type SignupFormRowWrapperType = {
   label: string | JSX.Element;
   children: JSX.Element;
 };
 
-export type { SignupNationalCodeType, SignupFormtype, SignupFormRowType };
+export type { NationalCodeSignupFormType, SignupFormWrappertype, SignupFormRowWrapperType };

@@ -1,5 +1,5 @@
-type RightSectionFormsType = {
+type AuthFormsRightSectionType = {
   text: string;
 };
 
-export type { RightSectionFormsType };
+export type { AuthFormsRightSectionType };

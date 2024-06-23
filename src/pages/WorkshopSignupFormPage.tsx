@@ -1,12 +1,13 @@
 import WorkshopSignupMainSection from "@c/organisms/SignupPageOrganisms/WorkshopSignupMainSection";
-import SignupFormsTemplate from "@c/templates/SignupFormsTemplate";
+import SignupFormWrappersTemplate from "@c/templates/SignupFormWrappersTemplate";
 import { memo } from "react";
 
+// ! signup form 4 workshop
 const WorkshopSignupFormPage = memo(() => {
   return (
-    <SignupFormsTemplate>
+    <SignupFormWrappersTemplate>
       <WorkshopSignupMainSection />
-    </SignupFormsTemplate>
+    </SignupFormWrappersTemplate>
   );
 });
 

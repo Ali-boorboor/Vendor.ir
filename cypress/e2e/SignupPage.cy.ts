@@ -6,7 +6,7 @@ describe("signup Form Tests", () => {
 
     cy.get("#company-dropdown").click();
 
-    cy.get("#SignupDropDownBoxCompany").click();
+    cy.get("#SignupOptionBoxCompany").click();
 
     cy.url().should("include", "/signup/company");
   });
@@ -16,7 +16,7 @@ describe("signup Form Tests", () => {
 
     cy.get("#person-dropdown").click();
 
-    cy.get("#SignupDropDownBoxShop").click();
+    cy.get("#SignupOptionBoxShop").click();
 
     cy.url().should("include", "/signup/shop");
   });
@@ -26,7 +26,7 @@ describe("signup Form Tests", () => {
 
     cy.get("#person-dropdown").click();
 
-    cy.get("#SignupDropDownBoxWorkshop").click();
+    cy.get("#SignupOptionBoxWorkshop").click();
 
     cy.url().should("include", "/signup/workshop");
   });
@@ -36,7 +36,7 @@ describe("signup Form Tests", () => {
 
     cy.get("#person-dropdown").click();
 
-    cy.get("#SignupDropDownBoxPerson").click();
+    cy.get("#SignupOptionBoxPerson").click();
 
     cy.url().should("include", "/signup/person");
   });

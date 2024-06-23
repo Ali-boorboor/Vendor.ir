@@ -1,9 +1,10 @@
 import SettingsIcon from "@mui/icons-material/Settings";
 import { memo } from "react";
 import { Link } from "react-router-dom";
-import { SignupDropDownBoxType } from "@/types/AtomsType";
+import { SignupOptionBoxType } from "@/types/AtomsType";
 
-const SignupDropDownBox = memo(({ href, text, id }: SignupDropDownBoxType) => {
+// ! red boxes in signup page that will let u choose what sort of signup form u wanna fill & get the following props
+const SignupOptionBox = memo(({ href, text, id }: SignupOptionBoxType) => {
   return (
     <Link
       id={id}
@@ -16,4 +17,4 @@ const SignupDropDownBox = memo(({ href, text, id }: SignupDropDownBoxType) => {
   );
 });
 
-export default SignupDropDownBox;
+export default SignupOptionBox;

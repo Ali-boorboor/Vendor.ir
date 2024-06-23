@@ -4,8 +4,7 @@ import PhonelinkLockIcon from "@mui/icons-material/PhonelinkLock";
 import { Link } from "@mui/icons-material";
 import { memo } from "react";
 
-// ! buttons of forgot password form section
-
+// ! button section of forgot password form (page)
 const ForgotPasswordFormButtons = memo(() => {
   return (
     <div className="w-full flex flex-col gap-6 mt-6">

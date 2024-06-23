@@ -1,21 +1,26 @@
 import { atom } from "recoil";
 
+// ! option boxs of company (/signup) state (show / hide) (for company)
 const IsSignupCompanyDropDown = atom({
   key: "IsSignupCompanyDropDown",
   default: false,
 });
 
+// ! option boxs of real-person (/signup) state (show / hide) (for shop & workshop & person)
 const IsSignupRealPersonDropDown = atom({
   key: "IsSignupRealPersonDropDown",
   default: false,
 });
 
-const typeOfApplicant = atom({
+// ! states for select boxes of each form
+// ! typeOfApplicant ==> نوع متقاضی + name of form (person | shop | workshop | company)
+// ! typeOfPerson ==> نوع شخص + name of form (person | shop | workshop | company)
+const typeOfApplicantPerson = atom({
   key: "typeOfApplicant",
   default: "person",
 });
 
-const typeOfPerson = atom({
+const typeOfPersonPerson = atom({
   key: "typeOfPerson",
   default: "genuine",
 });
@@ -53,8 +58,8 @@ const typeOfPersonShop = atom({
 export {
   IsSignupCompanyDropDown,
   IsSignupRealPersonDropDown,
-  typeOfApplicant,
-  typeOfPerson,
+  typeOfApplicantPerson,
+  typeOfPersonPerson,
   typeOfApplicantCompany,
   typeOfPersonCompany,
   typeOfApplicantWorkshop,

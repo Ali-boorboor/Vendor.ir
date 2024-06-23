@@ -1,13 +1,13 @@
 import CustomButton from "@c/atoms/CustomButton";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import { memo } from "react";
-import { SignupNationalCodeType } from "@/types/MoleculesType";
+import { NationalCodeSignupFormType } from "@/types/MoleculesType";
 import { FormControl, OutlinedInput } from "@mui/material";
 
 // ! the component form that will get national code & move user to signup forms
 // ! the signup form that has only one input (natinal-code)
-const SignupNationalCode = memo(
-  ({ title, inputLabel, href, className }: SignupNationalCodeType) => {
+const NationalCodeSignupForm = memo(
+  ({ title, inputLabel, href, className }: NationalCodeSignupFormType) => {
     return (
       <form className="max-w-signup-container mx-auto my-8 flex flex-col gap-4 shadow-md p-2 mb-36">
         <h3 className="text-black text-base font-bold py-4 px-2 bg-[#7db9e8] rounded-t-xl">
@@ -43,4 +43,4 @@ const SignupNationalCode = memo(
   }
 );
 
-export default SignupNationalCode;
+export default NationalCodeSignupForm;

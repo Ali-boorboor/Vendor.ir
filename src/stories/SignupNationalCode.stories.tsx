@@ -1,11 +1,11 @@
-import SignupNationalCode from "@c/molecules/SignupPageMolecules/SignupNationalCode";
+import NationalCodeSignupForm from "@c/molecules/SignupPageMolecules/NationalCodeSignupForm";
 import { Meta, StoryObj } from "@storybook/react";
 import { BrowserRouter } from "react-router-dom";
 import { RecoilRoot } from "recoil";
 
 const meta = {
-  title: "SignupNationalCode",
-  component: SignupNationalCode,
+  title: "NationalCodeSignupForm",
+  component: NationalCodeSignupForm,
   args: {},
   decorators: [
     (Story) => (
@@ -16,33 +16,33 @@ const meta = {
       </BrowserRouter>
     ),
   ],
-} satisfies Meta<typeof SignupNationalCode>;
+} satisfies Meta<typeof NationalCodeSignupForm>;
 
 export default meta;
-type Story = StoryObj<typeof SignupNationalCode>;
+type Story = StoryObj<typeof NationalCodeSignupForm>;
 
-export const SignupNationalCodeCompany: Story = {
+export const NationalCodeSignupFormCompany: Story = {
   args: {
     title: "شرکت",
     inputLabel: "شناسه ملی",
   },
 };
 
-export const SignupNationalCodeShop: Story = {
+export const NationalCodeSignupFormShop: Story = {
   args: {
     title: "فروشگاه",
     inputLabel: "کد ملی",
   },
 };
 
-export const SignupNationalCodeWorkshop: Story = {
+export const NationalCodeSignupFormWorkshop: Story = {
   args: {
     title: "کارگاه",
     inputLabel: "کد ملی",
   },
 };
 
-export const SignupNationalCodePerson: Story = {
+export const NationalCodeSignupFormPerson: Story = {
   args: {
     title: "شخص",
     inputLabel: "کد ملی",

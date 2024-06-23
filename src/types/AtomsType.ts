@@ -24,10 +24,10 @@ type MainLogoType = {
   height: string;
 };
 
-type SignupDropDownBoxType = {
+type SignupOptionBoxType = {
   href: string;
   id: string;
   text: string;
 };
 
-export type { CustomButtonType, CustomInputType, MainLogoType, SignupDropDownBoxType };
+export type { CustomButtonType, CustomInputType, MainLogoType, SignupOptionBoxType };
