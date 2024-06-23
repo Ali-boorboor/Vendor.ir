@@ -9,9 +9,11 @@ import PersonSignupFormPage from "@/pages/PersonSignupFormPage";
 import ShopSignupFormPage from "@/pages/ShopSignupFormPage";
 import SignupPage from "@/pages/SignupPage";
 import WorkshopSignupFormPage from "@/pages/WorkshopSignupFormPage";
+import Error404Page from "@/pages/Error404Page";
 
 // ! List of all routes
 let Routes = [
+  { path: "*", element: <Error404Page /> }, // ! error 404 page (page not found)
   { path: "/", element: <LoginPage /> },
   { path: "/forgot-password", element: <ForgotPasswordPage /> },
   // ! signup page with its children (national code components)
