@@ -10,6 +10,7 @@ import ShopSignupFormPage from "@/pages/ShopSignupFormPage";
 import SignupPage from "@/pages/SignupPage";
 import WorkshopSignupFormPage from "@/pages/WorkshopSignupFormPage";
 import Error404Page from "@/pages/Error404Page";
+import UserDashboardPage from "@/pages/UserDashboardPage";
 
 // ! List of all routes
 let Routes = [
@@ -32,6 +33,8 @@ let Routes = [
   { path: "/company-signup-form", element: <CompanySignupFormPage /> },
   { path: "/workshop-signup-form", element: <WorkshopSignupFormPage /> },
   { path: "/shop-signup-form", element: <ShopSignupFormPage /> },
+  // ! user dashboard routes
+  { path: "/user-dashboard", element: <UserDashboardPage /> },
 ];
 
 export default Routes;

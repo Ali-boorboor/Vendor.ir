@@ -2,6 +2,7 @@ import LoginForm from "@c/organisms/LoginPageOrganisms/LoginForm";
 import AuthFormsRightSection from "@c/organisms/AuthFormsRightSection";
 import { memo } from "react";
 
+// ! login template witch will render in login page component
 const Login = memo(() => {
   return (
     <main className="flex flex-wrap lg:flex-nowrap flex-row h-screen lg:gap-0 gap-4">

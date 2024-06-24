@@ -4,6 +4,7 @@ import SignupMain from "@c/organisms/SignupPageOrganisms/SignupMain";
 import { Outlet } from "react-router";
 import { memo } from "react";
 
+// ! signup template witch will render in signup page (/signup) component
 const Signup = memo(() => {
   return (
     <>

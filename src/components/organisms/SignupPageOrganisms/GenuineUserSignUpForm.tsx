@@ -14,6 +14,7 @@ import {
 } from "@mui/material";
 import { memo } from "react";
 
+// ! a component that handle all genuine forms (person & workshop & shop signup forms)
 const GenuineUserSignUpForm = memo(
   ({
     TypeOfApplicantState,

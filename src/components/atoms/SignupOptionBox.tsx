@@ -3,7 +3,7 @@ import { memo } from "react";
 import { Link } from "react-router-dom";
 import { SignupOptionBoxType } from "@/types/AtomsType";
 
-// ! red boxes in signup page that will let u choose what sort of signup form u wanna fill & get the following props
+// ! red boxes in signup page that will let u choose what sort of signup form u wanna fill & it will get the following props
 const SignupOptionBox = memo(({ href, text, id }: SignupOptionBoxType) => {
   return (
     <Link

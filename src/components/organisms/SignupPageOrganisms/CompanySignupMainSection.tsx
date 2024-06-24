@@ -16,6 +16,7 @@ import { memo } from "react";
 import { typeOfApplicantCompany, typeOfPersonCompany } from "@/contexts/OrganismsStates";
 import { useRecoilState } from "recoil";
 
+// ! main section of company signup form that will use GenuineUserSignUpForm component
 const CompanySignupMainSection = memo(() => {
   const [TypeOfApplicant, setTypeOfApplicant] = useRecoilState(typeOfApplicantCompany);
   const [TypeOfPerson, setTypeOfPerson] = useRecoilState(typeOfPersonCompany);

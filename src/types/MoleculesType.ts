@@ -15,4 +15,15 @@ type SignupFormRowWrapperType = {
   children: JSX.Element;
 };
 
-export type { NationalCodeSignupFormType, SignupFormWrappertype, SignupFormRowWrapperType };
+type UserDashboardOptionBoxType = {
+  icon: JSX.Element;
+  label: string;
+  href: string;
+};
+
+export type {
+  NationalCodeSignupFormType,
+  SignupFormWrappertype,
+  SignupFormRowWrapperType,
+  UserDashboardOptionBoxType,
+};
