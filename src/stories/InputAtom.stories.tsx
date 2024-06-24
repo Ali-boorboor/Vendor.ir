@@ -5,7 +5,7 @@ import HowToRegIcon from "@mui/icons-material/HowToReg";
 import type { Meta, StoryObj } from "@storybook/react";
 import { Lock } from "@mui/icons-material";
 
-// ! input atoms stories
+// ! login & forgot-password pages input atoms stories
 const meta: Meta<typeof CustomInput> = {
   title: "CustomInputs",
   component: CustomInput,
