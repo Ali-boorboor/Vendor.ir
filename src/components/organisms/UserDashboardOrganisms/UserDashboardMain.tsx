@@ -20,12 +20,12 @@ const UserDashboardMain = memo(() => {
         <UserDashboardOptionBox
           icon={<PriorityHighIcon sx={{ fontSize: "4rem" }} className="text-orange-600" />}
           label="موارد اصلاحی"
-          href="#"
+          href="/user-correction-items"
         />
         <UserDashboardOptionBox
           icon={<ListIcon sx={{ fontSize: "4rem" }} className="text-orange-600" />}
           label="لیست استعلام"
-          href="#"
+          href="/user-transactions"
         />
       </section>
     </main>

@@ -4,7 +4,7 @@ import LogoutIcon from "@mui/icons-material/Logout";
 import { memo } from "react";
 
 // ! the header section of user dashboard page
-const UserDashboardHeader = memo(() => {
+const UserDashboardHeader = memo(({ children }: any) => {
   return (
     <header className="bg-signup-header-gradient">
       <nav className="flex items-center py-2 px-4 max-w-signup-container justify-center gap-4 lg:justify-between w-full m-auto flex-wrap lg:flex-nowrap">
@@ -17,7 +17,8 @@ const UserDashboardHeader = memo(() => {
             <h2 className="text-sm lg:text-lg font-bold text-white">شرکت حفاری شمال</h2>
           </div>
         </section>
-        <section className="flex gap-10 items-center">
+        <section className={`${children ? "gap-3 justify-center" : "gap-10"} flex items-center flex-wrap`}>
+          {children && children}
           <button className="flex gap-1 items-center text-sky-500 text-sm text-nowrap lg:text-base font-bold bg-white p-2 rounded-full border hover:border-white border-sky-500 hover:scale-105 hover:bg-sky-500 hover:text-white group">
             <PasswordIcon className="group-hover:translate-x-1" />
             تغییر کلمه عبور

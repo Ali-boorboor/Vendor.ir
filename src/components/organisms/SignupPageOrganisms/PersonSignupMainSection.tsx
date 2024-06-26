@@ -1,4 +1,4 @@
-import GenuineUserSignUpForm from "./GenuineUserSignUpForm";
+import GenuineUserSignUpForm from "@c/organisms/SignupPageOrganisms/GenuineUserSignUpForm";
 import { useRecoilState } from "recoil";
 import { typeOfApplicantPerson, typeOfPersonPerson } from "@/contexts/OrganismsStates";
 import { memo } from "react";

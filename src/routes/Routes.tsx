@@ -11,6 +11,8 @@ import SignupPage from "@/pages/SignupPage";
 import WorkshopSignupFormPage from "@/pages/WorkshopSignupFormPage";
 import Error404Page from "@/pages/Error404Page";
 import UserDashboardPage from "@/pages/UserDashboardPage";
+import TransactionRegistrationSystemPage from "@/pages/TransactionRegistrationSystemPage";
+import CorrectionItemsPage from "@/pages/CorrectionItemsPage";
 
 // ! List of all routes
 let Routes = [
@@ -35,6 +37,8 @@ let Routes = [
   { path: "/shop-signup-form", element: <ShopSignupFormPage /> },
   // ! user dashboard routes
   { path: "/user-dashboard", element: <UserDashboardPage /> },
+  { path: "/user-transactions", element: <TransactionRegistrationSystemPage /> },
+  { path: "/user-correction-items", element: <CorrectionItemsPage /> },
 ];
 
 export default Routes;
