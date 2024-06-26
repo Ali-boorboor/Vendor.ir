@@ -55,6 +55,11 @@ const typeOfPersonShop = atom({
   default: "genuine",
 });
 
+const isHamburgerMenuVisible = atom({
+  key: "isHamburgerMenuVisible",
+  default: true,
+});
+
 export {
   IsSignupCompanyDropDown,
   IsSignupRealPersonDropDown,
@@ -66,4 +71,5 @@ export {
   typeOfPersonWorkshop,
   typeOfApplicantShop,
   typeOfPersonShop,
+  isHamburgerMenuVisible,
 };
