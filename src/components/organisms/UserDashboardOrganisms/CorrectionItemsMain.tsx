@@ -1,5 +1,6 @@
 import { memo } from "react";
 
+// ! the Correction Items Main section (موارد اصلاحی) (/user-correction-items)
 const CorrectionItemsMain = memo(() => {
   return (
     <main className="max-w-signup-container m-auto mt-4">

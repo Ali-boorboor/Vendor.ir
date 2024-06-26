@@ -8,6 +8,7 @@ import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { memo } from "react";
 
+// ! the Transaction Registration System Main section (لیست استعلام) (/user-transactions)
 const TransactionRegistrationSystemMain = memo(() => {
   return (
     <main className="max-w-signup-container m-auto">
